@@ -1,7 +1,7 @@
 Fira
 ====
+Quickly drop Mozilla’s [Fira Sans and Fira Mono] into your project.
 
-Quickly drop [Fira Sans] into your project.
 
 Clone with Git
 --------------
@@ -13,6 +13,7 @@ git clone https://github.com/barberboy/Fira
 ```html
 <link rel="stylesheet" href="/styles/fonts/Fira/fira.css">
 ```
+
 
 Download
 -----------
@@ -30,6 +31,7 @@ rm master.zip
 <link rel="stylesheet" href="/styles/fonts/Fira/fira.css">
 ```
 
+
 Bower
 -----
 ```sh
@@ -40,103 +42,65 @@ bower install https://github.com/barberboy/Fira.git
 <link rel="stylesheet" href="/bower_components/Fira/fira.css">
 ```
 
+
 Mozilla CDN
 -----------
-Not for you? Just use Mozilla's CDN:
+Not for you? Just use Mozilla’s CDN:
 
 ```html
 <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
 ```
 
-Fonts
-=====
-This project includes Fira Sans normal and italic in [**nine** different weights][Fira Sans],
-and Fira Mono normal in two weights. Pick and choose what you’d need.
 
+Fonts and Weights
+=================
+This project includes Fira Sans normal and italic styles in
+[**nine** different weights][Fira Sans], and Fira Mono in two. Pick and choose
+what you’d need.
+
+Fira Sans
+---------
 ```css
-font-family: 'Fira Sans';
-  font-weight: 100;
-  font-style: normal;
-
+body {
   font-family: 'Fira Sans';
   font-weight: 100;
-  font-style: italic;
-
 
   font-family: 'Fira Sans';
   font-weight: 200;
-  font-style: normal;
-
-  font-family: 'Fira Sans';
-  font-weight: 200;
-  font-style: italic;
 
   font-family: 'Fira Sans';
   font-weight: 300;
-  font-style: normal;
-
-  font-family: 'Fira Sans';
-  font-weight: 300;
-  font-style: italic;
 
   font-family: 'Fira Sans';
   font-weight: 400;
-  font-style: normal;
-
-  font-family: 'Fira Sans';
-  font-weight: 400;
-  font-style: italic;
-
 
   font-family: 'Fira Sans';
   font-weight: 500;
-  font-style: normal;
-
-  font-family: 'Fira Sans';
-  font-weight: 500;
-  font-style: italic;
 
   font-family: 'Fira Sans';
   font-weight: 600;
-  font-style: normal;
-
-  font-family: 'Fira Sans';
-  font-weight: 600;
-  font-style: italic;
 
   font-family: 'Fira Sans';
   font-weight: 700;
-  font-style: normal;
-
-  font-family: 'Fira Sans';
-  font-weight: 700;
-  font-style: italic;
 
   font-family: 'Fira Sans';
   font-weight: 800;
-  font-style: normal;
-
-  font-family: 'Fira Sans';
-  font-weight: 800;
-  font-style: italic;
 
   font-family: 'Fira Sans';
   font-weight: 900;
-  font-style: normal;
-
-  font-family: 'Fira Sans';
-  font-weight: 900;
-  font-style: italic;
+}
 ```
+
+Fira Mono
+---------
 ```css
+code, kbd, samp, pre, tt, var, textarea {
   font-family: 'Fira Mono';
   font-weight: 400;
-  font-style: normal;
 
   font-family: 'Fira Mono';
   font-weight: 600;
-  font-style: normal;
+}
 ```
-
 
 [Fira Sans]: http://mozilla.github.io/Fira/
