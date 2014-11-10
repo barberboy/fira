@@ -39,7 +39,7 @@ rm master.zip
 ### Bower
 
 ```sh
-bower install https://github.com/barberboy/Fira.git
+bower install barberboy/Fira
 ```
 
 ```html
