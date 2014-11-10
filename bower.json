@@ -1,6 +1,7 @@
 {
-  "name": "fira",
+  "name": "Fira",
   "version": "3.1.1",
   "main": "fira.css",
-  "ignore": [ "README.md" ]
+  "dependencies": {},
+  "ignore": ["README.md"]
 }
