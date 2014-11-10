@@ -3,8 +3,12 @@ Fira
 Quickly drop Mozilla’s [Fira Sans and Fira Mono][Fira Sans] into your project.
 
 
-Clone with Git
---------------
+Usage
+-----
+You have several options for using this project:
+
+### Clone with git
+
 ```sh
 cd styles/fonts
 git clone https://github.com/barberboy/Fira
@@ -15,8 +19,8 @@ git clone https://github.com/barberboy/Fira
 ```
 
 
-Download
------------
+### Download
+
 Download and unpack the [.zip archive](https://github.com/barberboy/Fira/archive/master.zip):
 
 ```sh
@@ -32,8 +36,8 @@ rm master.zip
 ```
 
 
-Bower
------
+### Bower
+
 ```sh
 bower install https://github.com/barberboy/Fira.git
 ```
@@ -43,8 +47,8 @@ bower install https://github.com/barberboy/Fira.git
 ```
 
 
-Mozilla CDN
------------
+### Mozilla CDN
+
 Not for you? Just use Mozilla’s CDN:
 
 ```html
@@ -53,13 +57,13 @@ Not for you? Just use Mozilla’s CDN:
 
 
 Fonts and Weights
-=================
+-----------------
 This project includes Fira Sans normal and italic styles in
 [**nine** different weights][Fira Sans], and Fira Mono in two. Pick and choose
 what you’d need.
 
-Fira Sans
----------
+### Fira Sans
+
 ```css
 body {
   font-family: 'Fira Sans';
@@ -91,8 +95,8 @@ body {
 }
 ```
 
-Fira Mono
----------
+### Fira Mono
+
 ```css
 code, kbd, samp, pre, tt, var, textarea {
   font-family: 'Fira Mono';
