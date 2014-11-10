@@ -1,7 +1,31 @@
-See http://www.carrois.com/fira-3-1/ for more details.
+Fira
+====
 
-Use this font on your website!
+Quickly drop [Fira Sans] into your project.
+
+Clone with Git
+--------------
+    cd styles/fonts
+    git clone https://github.com/barberboy/Fira
+
+Then:
 
 ```html
-<link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+<link rel="stylesheet" href="/styles/fonts/Fira/fira.css">
 ```
+
+Bower
+-----
+    bower install https://github.com/barberboy/Fira
+
+Download
+--------
+Download and unpack the [.zip archive](https://github.com/barberboy/Fira/archive/master.zip):
+
+    cd styles/fonts
+    wget https://github.com/barberboy/Fira/archive/master.zip
+    unzip master.zip
+    mv Fira-master Fira
+    rm master.zip
+
+[Fira Sans]: https://github.com/mozilla/Fira
