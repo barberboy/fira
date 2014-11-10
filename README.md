@@ -1,6 +1,6 @@
 Fira
 ====
-Quickly drop Mozilla’s [Fira Sans and Fira Mono] into your project.
+Quickly drop Mozilla’s [Fira Sans and Fira Mono][Fira Sans] into your project.
 
 
 Clone with Git
