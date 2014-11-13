@@ -1,7 +1,12 @@
 {
   "name": "Fira",
   "version": "3.1.1",
+  "license" : "OFL-1.1",
   "main": "fira.css",
-  "dependencies": {},
-  "ignore": ["README.md"]
+  "ignore": ["README.md", "source", "otf/technical reports"],
+  "homepage": "http://mozilla.github.io/Fira",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla/Fira.git"
+  }
 }
