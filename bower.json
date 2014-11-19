@@ -2,9 +2,13 @@
   "name": "Fira",
   "version": "3.1.1",
   "description": "Mozilla’s new Fira typeface, ready to drop into your website.",
-  "homepage": "https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/",
+  "homepage": "http://mozilla.github.io/Fira",
   "license": "OFL-1.1",
   "main": "fira.css",
-  "ignore": ["README.md"],
-  "keywords": ["fira", "fira-sans", "fira-mono", "fira sans", "fira mono", "font", "webfont", "open-font"]
+  "ignore": ["README.md", "source", "otf/technical reports"],
+  "keywords": ["fira", "fira-sans", "fira-mono", "fira sans", "fira mono", "font", "webfont", "open-font"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla/Fira.git"
+  }
 }
