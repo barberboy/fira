@@ -46,13 +46,33 @@ bower install barberboy/Fira
 <link rel="stylesheet" href="/bower_components/Fira/fira.css">
 ```
 
+If you’d like bower to put it in a different directory, just create a
+[`.bowerrc`](http://bower.io/docs/config/) file and specify the
+[`directory`](http://bower.io/docs/config/#directory) location:
+
+```json
+{
+  "directory": "app/public",
+  "analytics": false
+}
+```
+
+### CDN
+
+Quickly test Fira Sans on your site by using the CDN hosted by [RawGit]. Feel
+free to use it in production as well:
+
+```html
+<link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/Fira/3.1.1/fira.css">
+```
+
 
 ### Mozilla CDN
 
 Not for you? Just use Mozilla’s CDN:
 
 ```html
-<link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+<link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
 ```
 
 
@@ -107,4 +127,5 @@ code, kbd, samp, pre, tt, var, textarea {
 }
 ```
 
+[RawGit]: https://rawgit.com/
 [Fira Sans]: http://mozilla.github.io/Fira/
