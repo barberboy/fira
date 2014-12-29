@@ -11,39 +11,39 @@ You have several options for using this project:
 
 ```sh
 cd styles/fonts
-git clone https://github.com/barberboy/Fira
+git clone https://github.com/barberboy/fira
 ```
 
 ```html
-<link rel="stylesheet" href="/styles/fonts/Fira/fira.css">
+<link rel="stylesheet" href="/styles/fonts/fira/fira.css">
 ```
 
 
 ### Download
 
-Download and unpack the [.zip archive](https://github.com/barberboy/Fira/archive/master.zip):
+Download and unpack the [.zip archive](https://github.com/barberboy/fira/archive/master.zip):
 
 ```sh
 cd styles/fonts
-wget https://github.com/barberboy/Fira/archive/master.zip
+wget https://github.com/barberboy/fira/archive/master.zip
 unzip master.zip
-mv Fira-master Fira
+mv fira-master fira
 rm master.zip
 ```
 
 ```html
-<link rel="stylesheet" href="/styles/fonts/Fira/fira.css">
+<link rel="stylesheet" href="/styles/fonts/fira/fira.css">
 ```
 
 
 ### Bower
 
 ```sh
-bower install barberboy/Fira
+bower install barberboy/fira
 ```
 
 ```html
-<link rel="stylesheet" href="/bower_components/Fira/fira.css">
+<link rel="stylesheet" href="/bower_components/fira/fira.css">
 ```
 
 If you’d like bower to put it in a different directory, just create a
@@ -63,13 +63,13 @@ Quickly test Fira Sans on your site by using the CDN hosted by [RawGit]. Feel
 free to use it in production as well:
 
 ```html
-<link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/Fira/3.1.1/fira.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/fira/3.1.1/fira.css">
 ```
 
 or
 
 ```css
-@import url(https://cdn.rawgit.com/barberboy/Fira/3.1.1/fira.css);
+@import url(https://cdn.rawgit.com/barberboy/fira/3.1.1/fira.css);
 body {
   font-family: 'Fira Sans';
   font-weight: 300;
