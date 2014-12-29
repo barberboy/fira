@@ -66,6 +66,15 @@ free to use it in production as well:
 <link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/Fira/3.1.1/fira.css">
 ```
 
+or
+
+```css
+@import url(https://cdn.rawgit.com/barberboy/Fira/3.1.1/fira.css);
+body {
+  font-family: 'Fira Sans';
+  font-weight: 300;
+}
+```
 
 ### Mozilla CDN
 
